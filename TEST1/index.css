@@ -1,0 +1,416 @@
+ /* css main page */
+.root{
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* css narbar */
+.narbar{
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.narbar button{
+    border: none;
+    background-color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    /* cursor: pointer; */
+}
+.topic button{
+    font-size: 20px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu button{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* css page1 */
+.page1{
+    width: 1000px;
+    height: 1200px;
+    margin: 0cm;
+}
+.main{
+    background-image: url("img/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0ch;
+    padding: 0ch;
+}
+.footerpage1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(180deg,rgb(20, 20, 20),rgb(34, 33, 33));
+}
+.containerpage1{
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 25px;
+}
+.containerpage1 h1{
+    font-weight: bold;
+    font-size: 80px;
+    color: rgb(122, 195, 230);
+    font-family: 'Concert One', cursive;
+}
+.containerpage1 p{
+    font-size: 22px;
+    color: rgb(27, 27, 27);
+    font-weight: 200;
+}
+.containerpage1 button{
+    background-color: rgba(122, 243, 233, 0.445);;
+    height: 100px;
+    width: 200px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+.infofooterpage1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+.infofooterpage1 h1{
+    font-weight: 200;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.infofooterpage1 p{
+    text-align: center;
+    font-weight: 200;
+    font-size: 20px;
+    color: rgb(143, 142, 142);
+}
+/* Css Page2 */
+.page2{
+    width: 1000px;
+    height: 1400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainpage2{
+    width: 850px;
+    height: 1140px;
+}
+.item{
+    width: 100%;
+    height: 380px;
+    display:flex;
+}
+.item2{
+    width: 100%;
+    height: 380px;
+    display:flex;
+}
+.item3{
+    width: 100%;
+    height: 380px;
+    display:flex;
+}
+.itemimg1{
+    width: 58%;
+    height: 100%;
+}
+.info1{
+    height: 100%;
+    width: 100%;
+    text-align: center; 
+    /* padding-left: 40px;
+    padding-right: 40px; */
+}
+.info1 p{
+    color: rgb(153, 153, 153);
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    align-items: center;
+}
+.info1 h1{
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.itemimg{
+    height: 100%;
+    width: 50%;
+}
+.info{
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.containerinfo1{
+    height: 100%;
+    width: 42%;
+    display: flex;
+    align-items: center;
+}
+.containerinfo{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.info p{
+    color: rgb(114, 114, 114);
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    word-wrap: break-word;
+    margin: 0%;
+    line-height: 28px;
+}
+.info h1{
+    color: rgb(238, 238, 238);
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.item img{
+    object-fit: cover;
+    max-width: 100%;
+}
+.item2 img{
+    object-fit: cover;
+    max-width: 100%;
+}
+.item3 img{
+    object-fit: cover;
+    max-width: 100%;
+}
+/* Css login */
+.login{ 
+    width: 1000px;
+    height: 700px;
+}
+.infologin{
+    background-image: url(./img/bg-signup.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.infologin h1{
+    color:white ;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.infologin input{
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.infologin button{
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 10px;
+    background-color: rgba(138, 228, 175, 0.342);
+}
+.loginfooter{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginfooter p{
+    color:white ;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+@media screen and (max-width: 800px){
+    .root{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+    }
+    .narbar{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        background-color: white;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .page1{
+        width: 100%;
+        height: 1400px;
+        margin: 0cm;
+    }
+    .main{
+        background-image: url("img/bg-masthead.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0ch;
+        padding: 0ch;
+    }
+    .containerpage1{
+        display: flex;
+        justify-content: center;
+        height: 70%;
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        line-height: 25px;
+    }
+    .footerpage1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+        width: 100%;
+        background-image: linear-gradient(180deg,rgb(20, 20, 20),rgb(34, 33, 33));
+    }
+    .infofooterpage1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        height: 100%;
+    }
+    
+    .page2{
+        width: 100%;
+        height: 2600px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainpage2{
+        width: 80%;
+        height: 2280px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .item{
+        width: 100%;
+        height: 760px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .item2{
+        width: 100%;
+        height: 760px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }.item3{
+        width: 100%;
+        height: 760px;
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .itemimg1{
+        width: 100%;
+        height: 50%;
+    }
+    .containerinfo1{
+        height: 42%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        line-height: 28px;
+    }
+    .itemimg{
+        
+        height: 334px;
+        width: 100%;
+    }
+    .containerinfo{
+        height: 50%;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+    }
+    .item img{
+        object-fit: cover;
+        max-height: 100%;
+    }
+    .item2 img{
+        object-fit: cover;
+        max-height: 100%;
+    }
+    .item3 img{
+        object-fit: cover;
+        max-height: 100%;
+    }
+    .login{
+        width: 100%;
+        height: 700px;
+    }
+}

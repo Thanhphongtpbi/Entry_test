@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramdom</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <diV class="background">
+        <div class="container">
+            <div class="tilte">
+                <h1>Random Array Generator</h1>
+            </div>
+            <div class="calculator">
+                <div class="formcal">
+                    <form action="/action_page.php">
+                        <label for="fname">Length:</label>
+                        <input type="text" class="formarr" id="array" value="Nhap so ban muon" onchange="change()" >
+                        <button type="button" class="generate" onclick="calculator()"> Generate</button>
+                    </form>
+                </div>
+                <div  id="result">
+                    <p>Result:</p>
+                </div>
+            </div>
+        </div>
+    </diV>
+    <script src = "./index.js"></script>
+</body>
+</html>
